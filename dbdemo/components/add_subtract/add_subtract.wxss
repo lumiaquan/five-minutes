@@ -1,0 +1,14 @@
+.money-group{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50rpx;
+}
+.jiao image{
+  height: 30rpx;
+  width: 30rpx;
+}
+.question{
+  display: flex;
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "top-group": "/components/top-group/top-group",
+    "touxiang": "/components/touxiang/touxiang",
+    "search": "/components/search/search"
+  }
+}

@@ -1,0 +1,5 @@
+<view class='border'>
+  <view class='border-white'></view>
+  <view class='border-gray'></view>
+  <view class='border-white'></view>
+</view>

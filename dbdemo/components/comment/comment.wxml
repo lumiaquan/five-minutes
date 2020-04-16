@@ -1,0 +1,14 @@
+   <wxs src="../../utils/util.wxs" module="util" />
+   <view class='comment-group'  wx:for='{{comments}}'  wx:key='*this'  >
+     <image class='avatar' src='{{item.author.avatarUrl}}' ></image>
+     <view class='right-group'>
+       <view class='top-group'>
+         <view class='username'>{{item.author.nickName}} </view>
+         <view class='time'>{{util.timeFormat(item.time)}}</view>
+       </view>
+       <view class='content-group'>{{item.content.value}}</view>
+     </view>
+     <view class='left-group'>
+       <view class='delete' wx:if='{{ismy}}'>删除</view>
+     </view>
+   </view>

@@ -1,0 +1,51 @@
+
+<block wx:if="{{bigorsmall === 0}}">
+  <view class="tool">
+    <view class="tool-item" catchtap='onUpTop'>
+      <image wx:if="{{upStatus}}" src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/components/function_keys/upSuccess.png'></image>
+      <image wx:else src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/components/function_keys/up.png"></image>
+      <view class='numtext'>
+      <text>{{upNum}}</text>
+      </view>
+    </view>
+    <view class="tool-item comment" catchtap='onCommentTap'>
+      <image wx:if="{{commentStatus}}" src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/components/function_keys/downSuccess.png'></image>
+      <image wx:else src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/components/function_keys/down.png"></image>
+      <view class='numtext'>
+      <text>{{commentNum}}</text>
+      </view>
+    </view>
+    <view class="tool-item" catchtap='m'>
+      <image wx:if="{{collectionStatus}}" src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/components/function_keys/collection.png"></image>
+      <image wx:else src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/components/function_keys/sc.png"></image>
+      <view class='numtext'>
+      <text>{{collectNum}}</text>
+      </view>
+    </view>
+  </view>
+</block>
+<block wx:else>
+  <view class="tool1">
+    <view class="tool-item1" catchtap='onUpTop'>
+      <image wx:if="{{upStatus}}" src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/components/function_keys/upSuccess.png'></image>
+      <image wx:else src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/components/function_keys/up.png"></image>
+      <view class='numtext'>
+        <text>{{upNum}}</text>
+      </view>
+    </view>
+    <view class="tool-item1 comment" catchtap='onCommentTap'>
+      <image wx:if="{{commentStatus}}" src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/components/function_keys/downSuccess.png'></image>
+      <image wx:else src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/components/function_keys/down.png"></image>
+      <view class='numtext'>  
+        <text>{{commentNum}}</text>
+      </view>
+    </view>
+    <view class="tool-item1" catchtap='m'>
+      <image wx:if="{{collectionStatus}}" src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/components/function_keys/collection.png"></image>
+      <image wx:else src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/components/function_keys/sc.png"></image>
+      <view class='numtext'>
+      <text>{{collectNum}}</text>
+      </view>
+    </view>
+  </view>
+</block>

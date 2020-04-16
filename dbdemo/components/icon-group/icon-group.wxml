@@ -1,0 +1,6 @@
+<navigator class='icon-navigator' url='{{page_src}}'>
+  <view class='icon-group'>
+    <image src="{{pic_src}}"></image>
+    <text>{{title}}</text>
+  </view>
+</navigator>

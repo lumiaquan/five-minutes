@@ -1,0 +1,36 @@
+.mid-group{
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  height: 460rpx;
+  width: 680rpx;
+  border: 2px solid #7f7f7f;
+  border-radius: 16rpx;
+}
+.textarea{
+  margin: 20rpx;
+  width: 94%;
+}
+
+.placeholder{
+  font-size: 24rpx;
+}
+
+.button{
+  width: 180rpx;
+  height: 90rpx;
+  margin-top: 30rpx;
+  background: #0070c1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 50rpx;
+  border-top-right-radius: 50rpx;
+  border-bottom-left-radius: 50rpx;
+  border-bottom-right-radius: 50rpx; 
+}
+
+.bottom-group{
+  display: flex;
+  justify-content: center;
+}

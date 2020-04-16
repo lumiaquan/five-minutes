@@ -1,0 +1,9 @@
+<view class='top-group'>
+    <view class='image-group' style="margin-left:{{margin_left}}rpx">
+      <image src='{{pic_src}}'></image>
+    </view>
+    <view class='text-group'>
+      <text>{{title}}</text>
+    </view>
+</view>
+<border-group></border-group>

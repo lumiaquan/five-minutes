@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "icon-group": "/components/icon-group/icon-group",
+    "bottom-group": "/components/bottom-group/bottom-group"
+  }
+}

@@ -1,0 +1,7 @@
+<view class='white-group'>
+  <top-group title="我的收藏" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/myCollection_page/collection.png"></top-group>
+  <view class='mid-group'>
+    <my-pub-item collectionStatus="true" upNum="56" commentNum="3" collectNum="22" title="C语言期末重点讲解(一)！！" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/myCollection_page/pub-item-image.png"></my-pub-item>
+    <my-pub-item collectionStatus="true" upNum="75" commentNum="1" collectNum="29" title="C语言期末重点讲解(二)！！" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/myCollection_page/pub-item-image.png"></my-pub-item>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+<navigator url='{{url}}'>
+  <view class="outter" >
+    <view class='left-group'>
+      <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/components/reward_post/problem.png'></image>
+    </view>
+    <view class='right-group'>
+      <view class='problem_title'>{{problem_title}}</view>
+    </view>
+  </view>
+</navigator>
+<border-group></border-group>

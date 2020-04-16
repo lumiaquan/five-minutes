@@ -1,0 +1,7 @@
+
+<view class="searchbar">
+  <navigator wx:if="{{isnavigator}}" url='/pages/search_group/searchDetail_page/searchDetail_page' class='searchbar-navigator'></navigator>
+  <view wx:else class='search-group'>
+    <input class='search-input' placeholder='请输入内容'></input>
+  </view>
+</view>

@@ -1,0 +1,19 @@
+
+<view class="container">
+  <form bindsubmit='onSubmitEvent'>
+    <textarea class="textarea" name="content" placeholder="请输入您的心情~"></textarea>
+    <view wx:if="{{type == 1}}" class='image-list-group'>
+      <view wx:for="{{tempImages}}" class='image-group' style='width:{{imageSize}}px;height:{{imageSize}}px'>
+        <image src='{{item}}' bindtap='onImageTap' data-index='{{index}}'></image>
+        <view class='close-btn' bind:tap='onRemoveBtnTap' data-index='{{index}}'></view>
+      </view>
+      <view wx:if="{{tempImages.length < 9}}" class='addImage' bind:tap='onAddImageTap' style='width:{{imageSize}}px;height:{{imageSize}}px'>
+        <view>+</view>
+      </view>
+    </view>
+    <view wx:if="{{type==2}}">
+      <video src='{{tempVideo}}'></video>
+    </view>
+    <button class="submit-btn" type="primary" form-type='submit'>发表</button>
+  </form>
+</view>

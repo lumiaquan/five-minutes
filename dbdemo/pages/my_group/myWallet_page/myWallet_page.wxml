@@ -1,0 +1,37 @@
+<view class='white-group'>
+  <top-group title="我的钱包" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/myWallet_page/wallet.png"></top-group>
+  <view class='mid-group'>
+    <view class='coin-group'>
+      <view class='title-group'>讲堂币个数</view>
+      <view class='border-group'>
+        <view class='white-border'></view>
+        <view class='gray-border'></view>
+        <view class='white-border'></view>
+      </view>
+      <view class='money-group'>
+        <view class='image-group'>
+          <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/myWallet_page/coin.png'></image>
+        </view>
+        <view class='text-group'>x{{coin}}</view>
+      </view>
+    </view>
+    <view class='coin-group'>
+      <view class='title-group'>会员剩余天数</view>
+      <view class='border-group'>
+        <view class='white-border'></view>
+        <view class='gray-border'></view>
+        <view class='white-border'></view>
+      </view>
+      <view class='money-group'>
+        <view class='image-group'>
+          <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/myWallet_page/vip.png'></image>
+        </view>
+        <view class='text-group'>x20天</view>
+      </view>
+    </view>
+  </view>
+  <view class='recharge-group'>
+    <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/myWallet_page/recharge.png'></image>
+  </view>
+  <view class='annotation-group'>注：300个课堂币可以兑换1天的会员</view>
+</view>

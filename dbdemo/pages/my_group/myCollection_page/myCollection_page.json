@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "top-group": "/components/top-group/top-group",
+    "my-pub-item": "/components/my-pub-item/my-pub-item"
+  }
+}

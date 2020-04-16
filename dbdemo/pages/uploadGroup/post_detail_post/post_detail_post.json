@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "ordinarypost": "/components/ordinarypost/ordinarypost",
+    "comment":"/components/comment/comment"
+  }
+}

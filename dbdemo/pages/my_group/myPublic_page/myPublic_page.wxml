@@ -1,0 +1,7 @@
+<view class='white-group'>
+  <top-group title="我的发布" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/myPublic_page/pub.png"></top-group>
+  <view class='mid-group'>
+    <my-pub-item upNum="88" commentNum="1" collectNum="50" title="三角函数和差化积" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/myPublic_page/sanjiao.png"></my-pub-item>
+    <my-pub-item upNum="68" commentNum="0" collectNum="34" title="三角函数万能公式" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/myPublic_page/sanjiao2.png"></my-pub-item>
+  </view>
+</view>

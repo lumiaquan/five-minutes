@@ -1,0 +1,17 @@
+<view class='top-question-group'>
+  <block>
+  <add_subtract title="Java从入门到放弃！！" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/rewardAllocation_page/pub-item-image.png"></add_subtract>
+  </block>
+</view>
+
+<view class='bottom-question-group'>
+  <view class='yourmoney'>
+    <text>你的问题赏金</text>
+    <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/rewardAllocation_page/wallet.png'></image>
+    <text>X{{10}}</text>
+  </view>
+  <button class='give'>分配赏金</button>
+  <view class='tishi'>
+    <text>请完整的分配你的赏金!</text>
+  </view>
+</view>

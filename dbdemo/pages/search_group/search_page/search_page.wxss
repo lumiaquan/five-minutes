@@ -1,0 +1,61 @@
+.hot-search-group{
+  margin-top: 20rpx;
+}
+
+.hotsearch{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20rpx;
+  align-content: flex-start;
+}
+
+.hot-text{
+  font-size: 28rpx;
+  padding-left: 10rpx; 
+  padding-bottom: 10rpx;
+  border-bottom: 1rpx solid #b7bdb877;
+}
+.hot-input{
+  height: 50rpx;
+  border: 3rpx solid gray;
+  color: gray;
+  background-color: white;
+  border-radius: 10rpx;
+  padding: 10rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  margin-bottom: 30rpx;
+}
+
+.ad-bottom{
+  width: 100%;
+  bottom: 0rpx;
+  position: fixed;
+}
+
+
+
+
+
+
+/* 
+.searchmore-group{
+  padding: 50rpx 0rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.searchmore-image-group{
+  width: 160rpx;
+  height: 120rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40rpx;
+}
+.searchmore-image-group image{
+  width: 80rpx;
+  height: 80rpx;
+  flex-shrink: 0;
+} */

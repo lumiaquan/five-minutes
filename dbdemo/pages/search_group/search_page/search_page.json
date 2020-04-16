@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "search": "/components/search/search",
+    "border-group": "/components/border-group/border-group",
+    "ad_swiper": "/components/ad_swiper/ad_swiper"
+  }
+}

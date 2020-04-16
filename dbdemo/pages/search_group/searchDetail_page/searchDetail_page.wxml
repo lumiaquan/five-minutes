@@ -1,0 +1,19 @@
+
+<view class="searchbar">
+  <view class='search-group'>
+    <input class='search-input' placeholder='请输入内容' maxlength='10' bindconfirm='finishsearch'></input>
+  </view>
+</view>
+
+<view class='history-search-group'>
+  <view class='top-title'>
+    <view class='history-title'>搜索历史</view>
+    <view wx:if='{{isshow}}' bindtap='clearhistory' class='clear'>清除全部记录</view>
+  </view>
+  <navigator url='/pages/search_group/searchres_page/searchres_page?item={{item}}' hover-class='none' class='history-search' wx:for="{{searchwhat}}" wx:key="*this">
+    <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/search_group/searchDetail_page/2.png'></image>
+    <text>{{item}}</text>
+  </navigator>
+
+</view>
+

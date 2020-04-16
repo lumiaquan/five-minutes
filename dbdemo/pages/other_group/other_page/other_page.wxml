@@ -1,0 +1,9 @@
+<touxiang pic_src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/other_group/other_page/avatar.png' name='沈绪哲'></touxiang>
+<function_keys></function_keys>
+<segment items="{{items}}" defaultIndex="{{currentIndex}}" binditemchanged="onsegmentItemchanged">
+  <view slot="0" class='segment-page all-page'>
+    <my-pub-item></my-pub-item>
+  </view>
+  <view slot="1" class='segment-page 22news-page'>
+  </view>
+</segment>

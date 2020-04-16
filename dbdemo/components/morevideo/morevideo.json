@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "function_keys": "/components/function_keys/function_keys",
+    "border-group": "/components/border-group/border-group"
+  }
+}

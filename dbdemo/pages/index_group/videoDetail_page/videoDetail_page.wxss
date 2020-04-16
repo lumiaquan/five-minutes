@@ -1,0 +1,11 @@
+.play-video{
+  width: 100%;
+  height: 300rpx;
+
+  box-sizing: border-box;
+}
+
+.border{
+  height: 10rpx;
+  background: #fff;
+}

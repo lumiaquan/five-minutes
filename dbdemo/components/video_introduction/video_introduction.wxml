@@ -1,0 +1,15 @@
+
+  <view class="container">
+      <view class="author-box">
+      <navigator url='/pages/otherpage/otherpage'>
+        <image class="avatar" src="{{pic_src}}"></image>
+      </navigator>
+        <view class='author-date'>
+        <navigator url='/pages/otherpage/otherpage'>
+          <text class="author">{{userID}}</text>
+        </navigator>
+          <text class="title">{{title}}</text>
+          <text class='small-title'>{{introduction}}</text>
+        </view>
+    </view>
+  </view>

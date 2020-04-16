@@ -1,0 +1,96 @@
+.main-group{
+  display: flex;
+  /* background: red; */
+  justify-content: flex-start;
+  
+}
+.left-group{
+  /* background: blue; */
+  width: 650.4rpx;
+}
+
+.left-group .body-group{
+  /* background: red; */
+}
+.left-group .reply_group{
+  /* background: pink; */
+  /* height: 200rpx; */
+  display: flex;
+  justify-content:flex-start;
+  /* align-items: stretch; */
+}
+
+.left_reply{
+  /* background: blue; */
+  /* height: 100rpx; */
+  width: 180rpx;
+  flex-grow: 0;
+}
+
+.right_reply{
+  width: 491.9rpx;
+}
+.reply_name{
+  color: #0070c1;
+  font-size: 28rpx;
+  text-align: left;
+}
+.reply_neirong{
+  font-size: 28rpx;
+  color: grey;
+  
+}
+.more_reply{
+  /* background: yellow; */
+  color: #0070c1;
+  margin-left: 150rpx;
+  font-size: 28rpx;
+  
+}
+
+
+
+
+.left-group .neirong{
+  font-size: 28rpx;
+  
+  margin-left: 160rpx;
+  /* background: yellow; */
+  
+}
+
+
+.right-group{
+  /* background: pink; */
+  width: 100rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.right-group image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 20rpx;
+  flex-shrink: 0;
+  /* background: blue; */
+  
+  
+}
+.upnum{
+  color: grey;
+  font-size: 20rpx;
+  
+}
+.praise{
+  width: 40rpx;
+  height: 40rpx;
+  /* background: yellow; */
+}
+
+.reply{
+  width: 40rpx;
+  height: 60rpx;
+  /* background: yellow; */
+}

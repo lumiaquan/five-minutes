@@ -1,0 +1,8 @@
+<view class='video-title'>
+    <view class='image'>
+      <image src='{{pic_src}}'></image>
+    </view>
+    <text>{{title}}</text>
+  </view>
+  
+  

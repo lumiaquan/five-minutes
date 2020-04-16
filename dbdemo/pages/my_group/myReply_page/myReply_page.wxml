@@ -1,0 +1,6 @@
+<view class='white-group'>
+  <top-group title="我的回复" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/myReply_page/reply.png"></top-group>
+  <view class='mid-group'>
+    <reply pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/myReply_page/avatar.jpg"></reply>
+  </view>
+</view>

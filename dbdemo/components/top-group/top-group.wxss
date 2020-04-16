@@ -1,0 +1,24 @@
+.top-group{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.image-group{
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+  height: 180rpx;
+  align-items: center;
+  margin-right: 10rpx;
+}
+
+.top-group .image-group image{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.text-group{
+  font-size: 50rpx;
+}

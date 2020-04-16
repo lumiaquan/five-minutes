@@ -1,0 +1,48 @@
+/* 点赞评论转发的图标格式 */
+.tool{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+  margin-top: 10rpx;
+}
+.tool1{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+  margin-top: 10rpx;
+  padding-bottom: 15rpx;
+}
+.tool-item{
+
+  display: flex;
+  vertical-align: top;
+
+  font-size: 26rpx;
+}
+.tool-item image{
+  height: 30rpx;
+  width: 30rpx;
+  margin-right: 10rpx;
+  flex-shrink: 0;
+}
+
+.tool-item1{
+  display: flex;
+
+  vertical-align: top;
+
+  font-size: 26rpx;
+}
+.tool-item1 image{
+  height: 60rpx;
+  width: 60rpx;
+  margin-right: 10rpx;
+  flex-shrink: 0;
+}
+.numtext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

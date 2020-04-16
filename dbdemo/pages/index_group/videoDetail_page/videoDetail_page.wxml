@@ -1,0 +1,17 @@
+<video class='play-video' src="{{fileID}}"></video>
+<segment items="{{items}}" defaultIndex="{{currentIndex}}" binditemchanged="onsegmentItemchanged">
+  <view slot="0" class='segment-page all-page'>
+    <video_introduction userID="多多大可爱" title="三角函数和差化积" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/index_group/videoDetail_page/avata1.png" introduction="三角函数基础知识"></video_introduction>
+    <function_keys upNum="88" commentNum="1" collectionNum="50"></function_keys>
+    <view class='border'></view>
+    <border-group></border-group>
+    <my-relative upNum="67" commentNum="3" collectNum="39" title="三角函数积化和差" video_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/MV/三角函数积化和差.mp4" ></my-relative>
+    <my-relative upNum="73" commentNum="1" collectNum="41" title="三角函数万能公式" video_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/MV/三角函数万能公式.mp4"></my-relative>
+  </view>
+  <view slot="1" class='segment-page 22news-page'>
+    <reply neirong='{{post_second[0].neirong}}' pic_src='{{post_second[0].pic_src}}' name='{{post_second[0].name}}' upnum='56' third_post='{{third_post}}'   third_post_num='4'></reply>
+    <reply neirong='{{post_second[1].neirong}}' pic_src='{{post_second[1].pic_src}}' name='{{post_second[1].name}}' upnum='27' third_post='{{third_post1}}'  third_post_num='2'></reply>
+    <reply neirong='{{post_second[2].neirong}}' pic_src='{{post_second[2].pic_src}}' name='{{post_second[2].name}}' upnum='56' third_post='{{third_post2}}'   third_post_num='4'></reply>
+  </view>
+</segment>
+

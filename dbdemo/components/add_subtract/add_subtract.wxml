@@ -1,0 +1,13 @@
+<view class='question'>
+  <my-pub-item title="{{title}}" pic_src="{{pic_src}}"></my-pub-item>
+  <view class='money-group'>
+    <view class='jiao'>
+      <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/components/add_subtract/1.png'></image>
+    </view>
+    <text>10</text>
+    <view class='jiao'>
+      <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/components/add_subtract/2.png'></image>
+    </view>
+  </view>
+</view>
+

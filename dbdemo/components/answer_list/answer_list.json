@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "morevideo": "/components/morevideo/morevideo",
+    "touxiang":"/components/touxiang/touxiang"
+  }
+}

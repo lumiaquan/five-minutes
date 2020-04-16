@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "touxiang":"/components/touxiang/touxiang",
+    "border-group": "/components/border-group/border-group"
+  }
+}

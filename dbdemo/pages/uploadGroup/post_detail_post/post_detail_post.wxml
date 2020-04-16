@@ -1,0 +1,14 @@
+ <wxs src="../../../utils/util.wxs" module="util" />
+ 
+ <ordinarypost  posts='{{posts}}'  ></ordinarypost>
+
+<view class='comment-list-group'>
+   <view class='comment-title'>评论{{commentCount}}</view>
+   <comment comments='{{comments}}'></comment> 
+</view>
+
+ <view class='comment-input-group'>
+   <input class='comment-input'  placeholder='请输入评论内容'  cursor-spacing='20'  bindfocus='onFocusEvent'  bindblur='onBlurEvent'  bindconfirm='onConfirmEvent'></input>
+ </view>
+
+ <view class='mask'  wx:if='{{mask}}'></view>

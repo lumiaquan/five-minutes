@@ -1,0 +1,79 @@
+<!-- <search isnavigator="{{true}}"></search> -->
+<view class="top-group">
+  <!-- 滑动图片 -->
+  <view class='top-swiper-group'>
+    <ad_swiper ad_page_url="/pages/index/index" ad_pic_src="{{ad_pic_src}}"></ad_swiper>
+  </view>
+</view>
+<image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/index_group/index_page/middlebackground.png' class='middlebackground'></image>
+
+
+<!-- 分类学科 -->
+<view class='course-title-group'>
+  <view class='course-top-group'>
+    <view>
+      <navigator url='/pages/index_group/videoList_page/videoList_page?item=高数' hover-class='none'>
+      <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/index_group/index_page/math.png' class='bigimage'></image>
+      </navigator>
+      </view>
+      <view class='top-right'>
+      <navigator url='/pages/index_group/videoList_page/videoList_page?item=工学' hover-class='none'>
+      <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/index_group/index_page/engineering.png' class='smallimage'></image>
+      </navigator>
+      <navigator url='/pages/index_group/videoList_page/videoList_page?item=哲学' hover-class='none'>
+      <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/index_group/index_page/philosphy.png' class='smallimage'></image>
+      </navigator>
+      <navigator url='/pages/index_group/videoList_page/videoList_page?item=经济学' hover-class='none'>
+      <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/index_group/index_page/economics.png' class='smallimage'></image>
+      </navigator>
+    </view>
+  </view>
+  <view class='course-middle-group'>
+    <view class='middle-left'>
+      <navigator url='/pages/index_group/videoList_page/videoList_page?item=文学' hover-class='none'>
+      <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/index_group/index_page/literature.png' class='smallimage'></image>
+      </navigator>
+      <navigator url='/pages/index_group/videoList_page/videoList_page?item=法学' hover-class='none'>
+      <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/index_group/index_page/law.png' class='smallimage'></image>
+      </navigator>
+      <navigator url='/pages/index_group/videoList_page/videoList_page?item=历史学' hover-class='none'>
+      <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/index_group/index_page/history.png' class='smallimage'></image>
+      </navigator>
+      <navigator url='/pages/index_group/videoList_page/videoList_page?item=教育学' hover-class='none'>
+      <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/index_group/index_page/pedagogy.png' class='smallimage'></image>
+      </navigator>
+      <navigator url='/pages/index_group/videoList_page/videoList_page?item=理学' hover-class='none'>
+      <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/index_group/index_page/lixue.png' class='smallimage'></image>
+      </navigator>
+      <navigator url='/pages/index_group/videoList_page/videoList_page?item=农学' hover-class='none'>
+      <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/index_group/index_page/agronomy.png' class='smallimage'></image>
+      </navigator>
+    </view>
+    <view class='under-group'>
+      <navigator url='/pages/index_group/videoList_page/videoList_page?item=财会' hover-class='none'>
+      <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/index_group/index_page/accounting.png' class='bigimage'></image>
+      </navigator>
+      <view>
+      <navigator url='/pages/index_group/videoList_page/videoList_page?item=医学' hover-class='none'>
+      <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/index_group/index_page/medicine.png' class='smallimage'></image>
+      </navigator>
+      </view>
+    </view>
+  </view>
+  <view class='course-bottom-group'>
+    <navigator url='/pages/index_group/videoList_page/videoList_page?item=英语' hover-class='none'>
+    <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/index_group/index_page/english.png' class='bigimage'></image>
+    </navigator>
+    <view class='bottom-right'>
+    <navigator url='/pages/index_group/videoList_page/videoList_page?item=军事学' hover-class='none'>
+    <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/index_group/index_page/military.png' class='smallimage'></image>
+    </navigator>
+    <navigator url='/pages/index_group/videoList_page/videoList_page?item=艺术学' hover-class='none'>
+    <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/index_group/index_page/art.png' class='smallimage'></image>
+    </navigator>
+    <navigator url='/pages/index_group/videoList_page/videoList_page?item=管理学' hover-class='none'>
+    <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/index_group/index_page/management.png' class='smallimage'></image>
+    </navigator>
+    </view>
+  </view>
+</view>

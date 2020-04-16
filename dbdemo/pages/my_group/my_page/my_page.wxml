@@ -1,0 +1,42 @@
+
+<view class='mine-group'>
+  <view class='mine-info-group'>
+    <view class='left-group'>
+      <view class='left-group-avatar'>
+        <open-data  type="userAvatarUrl"></open-data>
+      </view>  
+    </view>
+    <view class='right-group'>
+      <view class='info-group'>
+        <open-data type="userNickName"></open-data>
+      </view>
+      <view class='slogan-group'>
+        <text wx:if='{{isIdentifi}}' class='isIdentifi'>(身份已认证)</text>
+        <text wx:else class="isIdentifi">(身份未认证)</text>
+      </view>
+    </view>
+  </view>
+  <view class='lightBlue'></view>
+  <view class='white-group'>
+    <view class='mid-group'>
+     <view class='signup' bindtap='onSignupTap'>
+      <icon-group title="签到" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/my_page/sign.png"></icon-group>
+     </view>
+      <icon-group title="钱包" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/my_page/wallet.png" page_src="/pages/my_group/myWallet_page/myWallet_page"></icon-group>
+      <icon-group title="发布" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/my_page/pub.png" page_src="/pages/my_group/myPublic_page/myPublic_page"></icon-group>
+      <icon-group title="收藏" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/my_page/collection.png" page_src="/pages/my_group/myCollection_page/myCollection_page"></icon-group>
+    </view>
+
+    <view class='bottom-group'>
+      <bottom-group title="我的回复" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/my_page/reply.png" page_src="/pages/my_group/myReply_page/myReply_page"></bottom-group>
+      <bottom-group title="我的关注" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/my_page/follow.png" page_src="/pages/my_group/myFollow_page/myFollow_page"></bottom-group>
+      <bottom-group title="身份认证" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/my_page/identify.png" page_src="/pages/my_group/myIdentify_page/myIdentify_page"></bottom-group>
+      <bottom-group title="悬赏问题" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/my_page/rewordq.png" page_src="/pages/my_group/myReward_page/myReward_page"></bottom-group>
+      <bottom-group title="反馈" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/my_page/feedback.png" page_src="/pages/my_group/feedback_page/feedback_page"></bottom-group>
+    </view>
+
+    
+
+  </view>
+</view>
+

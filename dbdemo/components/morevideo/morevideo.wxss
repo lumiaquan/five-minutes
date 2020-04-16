@@ -1,0 +1,40 @@
+.video_big_group{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 10rpx;
+  width: 80%;
+  margin-top: 30rpx;
+  margin-left: 70rpx;
+  margin-bottom: 60rpx; 
+  border-radius: 10rpx;
+  border: 4rpx solid black;
+}
+.video_group{
+  height: 337.5rpx;
+  width: 100%;
+}
+.keys_group{
+  margin-left:50rpx;
+  margin-right:50rpx;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx; 
+  font-weight: 700;
+}
+.video_tags{
+  display: flex;
+  justify-content: center;
+  font-size: 25rpx;
+  margin: 10rpx 0rpx;
+}
+.video-title-text{
+  margin-top: 15rpx; 
+}
+.video-text{
+  margin-left: 30rpx; 
+}

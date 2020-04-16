@@ -1,0 +1,11 @@
+<top-group pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/myReward_page/reward.png"  title="悬赏问题"></top-group>
+<segment items="{{items}}"> 
+  <view slot='0'>           
+    <view wx:for='{{problem}}' wx:key='*this'>
+      <reward_post problem_title="{{item.title}}" url="{{item.url}}"></reward_post>
+    </view>
+  </view>
+  <view slot='1'>
+  回复页面
+  </view>
+ </segment>

@@ -1,0 +1,12 @@
+
+<navigator class='bottom-navigator'url='{{page_src}}'>
+  <view class='mine-block-group'>
+    <view class='thumbnail-group'>
+    <image class='thumbnail' src="{{pic_src}}"></image>
+    </view>
+    <view class='mine-text'>
+      <text class='text'>{{title}}</text>
+    </view>         
+  </view>
+</navigator>
+<border-group></border-group>

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "touxiang": "/components/touxiang/touxiang",
+    "reply": "/components/reply/reply",
+    "border-group": "/components/border-group/border-group",
+    "function_keys": "/components/function_keys/function_keys"
+  }
+}

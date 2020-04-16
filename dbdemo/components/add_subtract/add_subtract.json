@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "my-pub-item": "/components/my-pub-item/my-pub-item"
+  }
+}

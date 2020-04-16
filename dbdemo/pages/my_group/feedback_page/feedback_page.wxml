@@ -1,0 +1,10 @@
+<view class='white-group'>
+  <top-group title="反馈" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/feedback_page/feedback.png" margin_left="20"></top-group>
+  <view class='mid-group'>
+    <textarea class='textarea' placeholder-class='placeholder' placeholder='有什么想说的，写在这儿！'></textarea>
+  </view>
+  <view class='bottom-group'>
+    <view class='button'>提交</view>
+  </view>
+</view>
+

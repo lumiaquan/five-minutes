@@ -1,0 +1,15 @@
+<view class='white-group'>
+  <top-group title="身份认证" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/myldentify_page/identify.png"></top-group>
+  <view wx:if="{{identifyStatus===1}}" class='mid-group'>
+    <view class='image-group' bindtap='onUploadImage'>
+      <image  src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/myldentify_page/camera.png'></image>
+    </view>
+    <view class='text-group'>请上传清晰的身份证和学生证在一起的照片!</view>
+  </view>
+  <view wx:if="{{identifyStatus===2}}" class='mid-group'>
+    <view class='image-group'>
+      <image  src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/myldentify_page/wallet.png'></image>
+    </view>
+    <view class='text-group'>等待验证中。。。</view>
+  </view>
+</view>

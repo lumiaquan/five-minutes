@@ -1,0 +1,42 @@
+<view class="white-group">
+<form bindsubmit='send'>
+  <view class='border'></view>
+  <upload-title-group pic_src="/pages/upload_group/images/1.png" title="视频标题："  ></upload-title-group>
+  <input class='text' placeholder='请输入标题（不超过10字）'  name='title' maxlength='10' ></input>
+  <view class='tag-group'>
+    <upload-title-group pic_src="/pages/upload_group/images/2.png" title="视频标签："></upload-title-group>
+    <view class='xiala'>
+    <xiala  prop-array='{{selectArray}}' bindmyevent="myevent" ></xiala>
+    </view>
+  </view>
+  <upload-title-group pic_src="/pages/upload_group/images/3.png" title="视频定价(平台币个数)："  ></upload-title-group>
+  <input class='text' placeholder='请输入平台币个数（5）'type='number'  name='name3'></input>
+  <upload-title-group pic_src="/pages/upload_group/images/4.png" title="视频说明："></upload-title-group>
+  <input class='text' placeholder='请输入标题（不超过30字）'  name='name4' maxlength='30'></input>
+
+
+
+
+
+  <view class='video-title'>
+    <view class='image'>
+      <image src='/pages/upload_group/images/5.png'></image>
+    </view>
+    <text>上传视频:</text>
+    <view class='other' wx:if='{{tempFilePath}}'  bindtap='cloudVideo'> 选取其他视频</view>
+  </view>
+  <view class='foot-group'>
+    <view class='cloud' >
+      <view class='isok'   wx:if='{{tempFilePath}}'  >
+         <video src='{{tempFilePath}}'></video>
+      </view>
+      <view wx:else  bindtap='cloudVideo'>
+         <image  src='/pages/upload_group/images/upload.png' ></image>
+      </view>
+    </view>
+    <view class='send' >
+      <button form-type='submit' >提交</button>
+    </view>
+  </view>
+</form>
+</view>

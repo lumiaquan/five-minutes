@@ -1,0 +1,19 @@
+<view class='header-group' style='height:{{height}}rpx'>
+    <view class='left-view' style='height:{{image_size}}rpx;width:{{image_size}}rpx'>
+    <!-- <navigator url='/pages/other_group/other_page/other_page'> -->
+      <image src='{{pic_src}}' ></image>
+    <!-- </navigator> -->
+    </view>
+    <view class='right-view'>
+    <navigator url='/pages/other_group/other_page/other_page'>
+      <view class='name' style='font-size:{{name_size}}rpx;'>{{name}}</view>
+    </navigator>
+      <view class='time'  style='font-size:{{time_size}}rpx;'>{{time}}</view>
+    </view>
+    <view class='right-right-view'> 
+      <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/components/touxiang/rz.png'></image>
+    </view>  
+</view>
+
+
+  

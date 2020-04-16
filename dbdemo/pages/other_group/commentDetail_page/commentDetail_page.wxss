@@ -1,0 +1,43 @@
+
+.body-group{
+  width: 100%;
+  /* height: 400rpx; */
+  /* background: pink; */
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap; 
+  margin-bottom: 20rpx;
+  align-items: center;
+}
+.neirong_image{
+  width: 100%;
+}
+.neirong_image image{
+  width: 100%;
+  height: 600rpx;
+}
+.body-group .neirong{
+  width: 80%;
+  /* height: 400rpx; */
+  /* background: yellowgreen; */
+  font-size: 28rpx;
+
+  
+  
+}
+.foot-group{
+  width: 100%;
+  height: 60rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background: yellow; */
+
+}
+
+.foot-group image{
+  width:40rpx;
+  height: 40rpx;
+  padding: 0rpx 10rpx;
+}
+

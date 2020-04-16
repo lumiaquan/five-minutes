@@ -1,0 +1,17 @@
+<view class='video_big_group'>
+  <navigator url="{{navigatorUrl}}">
+    <view class='title'>
+      <text>{{video_title}}</text>
+    </view>
+    <view>
+      <video class='video_group' src='{{videosrc}}'></video>
+    </view>
+    <text class='video_tags'>#{{video_tags}}#</text>
+  </navigator>
+  <view class='video-title-text'>
+    <border-group></border-group>
+  </view>
+  <view class='keys_group'>
+  <function_keys bigorsmall="0" upNum="{{upNum}}" commentNum="{{commentNum}}" collectNum="{{collectNum}}"></function_keys>
+  </view>
+</view>

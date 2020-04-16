@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "border-group": "/components/border-group/border-group",
+    "add_subtract": "/components/add_subtract/add_subtract"
+  }
+}

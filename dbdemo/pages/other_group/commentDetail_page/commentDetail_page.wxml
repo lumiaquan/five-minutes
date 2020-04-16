@@ -1,0 +1,22 @@
+
+<view class='main-group'>
+  <touxiang pic_src='{{buf.pic_src}}' name='{{buf.name}}'></touxiang>
+  <view class='body-group'>
+    <view class='neirong'> {{buf.neirong}}</view>
+    <view class='neirong_image' wx:if='{{buf.neirong_src1}}' >
+     <image wx:if='{{buf.neirong_src1}}' src='{{buf.neirong_src1}}'></image>
+     <image wx:if='{{buf.neirong_src1}}' src='{{buf.neirong_src2}}'></image>
+     <image wx:if='{{buf.neirong_src1}}' src='{{buf.neirong_src3}}'></image>
+    </view>
+  </view>
+  <view >
+    <function_keys bigorsmall="1"  upNum='{{buf.upNum}}'  commentNum='{{buf.commentNum}}' collectNum='{{buf.collectNum}}'></function_keys>
+  </view>
+</view>
+<border-group></border-group>
+
+<reply neirong='{{post_second[0].neirong}}' pic_src='{{post_second[0].pic_src}}' name='{{post_second[0].name}}'></reply>
+<reply neirong='{{post_second[1].neirong}}' pic_src='{{post_second[1].pic_src}}' name='{{post_second[1].name}}'></reply>
+
+
+

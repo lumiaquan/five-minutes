@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "segment": "/components/segment/segment",
+    "news-all": "/components/news-all/news-all",
+    "my-pub-item": "/components/my-pub-item/my-pub-item",
+    "touxiang": "/components/touxiang/touxiang",
+    "function_keys": "/components/function_keys/function_keys"
+  }
+}

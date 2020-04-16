@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "reply": "/components/reply/reply",
+    "top-group": "/components/top-group/top-group"
+  }
+}

@@ -1,0 +1,72 @@
+
+.big-box{
+  background: #fff;
+  border-radius: 50rpx;
+  margin: 20rpx 10rpx 10rpx 10rpx;
+}
+.container{
+  border-bottom: 1px solid #b7bdb877;
+}
+.author-box{
+  display: flex;
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.cheng{
+  display: flex;
+  flex-direction: column;
+}
+
+.put_image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15rpx;
+  
+}
+.put_image image{
+  width: 300rpx;
+  height: 400rpx;
+}
+.detail{
+  /* margin: 100rpx; */
+  margin-left: 20rpx;
+  margin-bottom: 20rpx;
+  /* font-size: 28rpx; */
+  
+}
+
+.reward_group{
+  display: flex;
+  flex-direction: column;
+  margin-left: 200rpx; 
+  margin-top: 20rpx; 
+}
+.reward-images{
+  width: 100rpx;
+  height: 30rpx;
+}
+.money_group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+}
+.money_group text{
+  font-size: 24rpx;
+}
+.money{
+  width: 40rpx;
+  height: 40rpx;
+}
+.time_text{
+  background: #0070c1;
+  width: 100rpx;
+  height: 30rpx;
+  font-size: 22rpx;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+}

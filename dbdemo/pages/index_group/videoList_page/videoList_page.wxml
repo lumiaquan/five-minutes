@@ -1,0 +1,5 @@
+<view class='all_group' wx:for='{{all}}' wx:key="*this">
+  <morevideo upNum="{{item.upNum}}" commentNum="{{item.commentNum}}" collectNum="{{item.collectNum}}" videosrc="{{item.fileID}}" navigatorUrl="/pages/index_group/videoDetail_page/videoDetail_page?id={{item._id}}"   video_title='{{item.title}}' video_tags='{{item.tags}}'>
+  </morevideo>
+</view>
+  <loadingmore hasmore="{{hasmore}}"></loadingmore>

@@ -1,0 +1,12 @@
+{
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "segment": "/components/segment/segment",
+    "news-all": "/components/news-all/news-all",
+    "morevideo": "/components/morevideo/morevideo",
+    "loadingmore": "/components/loadingmore/loadingmore",
+    "touxiang": "/components/touxiang/touxiang",
+    "ordinarypost": "/components/ordinarypost/ordinarypost"
+  }
+}

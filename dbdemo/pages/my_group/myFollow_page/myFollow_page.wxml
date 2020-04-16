@@ -1,0 +1,14 @@
+<view class="white-group">
+  <top-group pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/myFollow_page/follow.png" title="我的关注"></top-group>
+  <view class='search-group'>
+    <view class='search'>
+      <view class='image'>
+        <image src='/images/2.2.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class='mid-group'>
+    <touxiang name="多多大可爱" time_size="30" time="武汉大学" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/myFollow_page/avatar.jpg"></touxiang>
+    <touxiang name="屈" time_size="30" time="华中科技大学" pic_src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/pages/my_group/myFollow_page/avatar2.jpeg"></touxiang>
+  </view>
+</view>

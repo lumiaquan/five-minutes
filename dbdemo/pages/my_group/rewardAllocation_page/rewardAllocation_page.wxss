@@ -1,0 +1,36 @@
+
+.top-question-group{
+  display: flex;
+  padding: 30rpx 0rpx 30rpx 0rpx;
+  box-sizing: border-box;
+  
+}
+.bottom-question-group{
+
+}
+.yourmoney{
+  display: flex;
+  justify-content: center;
+  padding: 300rpx 0rpx 0rpx 0rpx;
+  margin: 0 0 30rpx 0;
+  
+}
+.yourmoney image{
+  height: 50rpx;
+  width: 50rpx;
+}
+.yourmoney text{
+  font-size: 40rpx;
+  color: #0070c1;
+}
+.give{
+  width: 400rpx;
+  background-color: #fff; 
+  color: #0070c1; 
+}
+.tishi{
+  display: flex;
+  justify-content: center;
+  font-size: 26rpx;
+  margin: 30rpx;
+}

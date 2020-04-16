@@ -1,0 +1,16 @@
+<view class='pub-items'>
+  <navigator url='/pages/index_group/videoDetail_page/videoDetail_page'>
+    <view class='pub-item-image'>
+      <video class='video' src='{{video_src}}'></video>
+    </view>
+  </navigator>
+  <view class='pub-info'>
+    <navigator url='/pages/index_group/videoDetail_page/videoDetail_page'>
+      <view class='pub-title'>
+        <text>{{title}}</text>
+      </view>
+    </navigator>
+    <function_keys collectionStatus="{{collectionStatus}}" upNum="{{upNum}}" commentNum="{{commentNum}}" collectNum="{{collectNum}}"></function_keys>
+  </view>
+</view>
+<border-group></border-group>

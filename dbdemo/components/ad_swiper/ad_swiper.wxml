@@ -1,0 +1,7 @@
+  <swiper class="swiper" autoplay indicator-dots interval='3000' duration='400' circular indicator-active-color='#0070c1'>
+    <swiper-item wx:for='{{ad_pic_src}}'  wx:key='*this'>
+      <navigator url='{{ad_page_url}}?index={{index}}'>
+         <image src='{{item}}'></image>
+      </navigator> 
+    </swiper-item>
+  </swiper>

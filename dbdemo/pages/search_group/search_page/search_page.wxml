@@ -1,0 +1,77 @@
+<search isnavigator="{{true}}"></search>
+
+<view class='hot-search-group'>
+  <view class='hot-text'>大家都在搜</view>
+  <view class='hotsearch'>
+    <navigator url='/pages/search_group/searchres_page/searchres_page?item={{item}}' class='hot-input' wx:for='{{hotsearch}}' wx:key='*this'>{{item}}</navigator>
+  </view>
+</view>
+
+<view class='ad-bottom'>
+  <ad_swiper ad_pic_src="{{ad_pic_src}}"></ad_swiper>
+</view>
+
+
+
+<!-- <view class='searchmore-group'>
+  <view class='searchmore-image-group'>
+    <image src='/picture/classify/1.png'></image>
+    <text>哲学</text>
+  </view>
+  <view class='searchmore-image-group'>
+    <image src='/picture/classify/2.png'></image>
+    <text>经济学</text>
+  </view>
+  <view class='searchmore-image-group'>
+    <image src='/picture/classify/2.png'></image>
+    <text>法学</text>
+  </view>
+  <view class='searchmore-image-group'>
+    <image src='/picture/classify/3.png'></image>
+    <text>教育学</text>
+  </view>
+  <view class='searchmore-image-group'>
+    <image src='/picture/classify/4.png'></image>
+    <text>文学</text>
+  </view>
+  <view class='searchmore-image-group'>
+    <image src='/picture/classify/5.png'></image>
+    <text>哲学</text>
+  </view>
+  <view class='searchmore-image-group'>
+    <image src='/picture/classify/6.png'></image>
+    <text>历史学</text>
+  </view>
+  <view class='searchmore-image-group'>
+    <image src='/picture/classify/7.png'></image>
+    <text>理学</text>
+  </view>
+  <view class='searchmore-image-group'>
+    <image src='/picture/classify/8.png'></image>
+    <text>工学</text>
+  </view>
+  <view class='searchmore-image-group'>
+    <image src='/picture/classify/9.png'></image>
+    <text>农学</text>
+  </view>
+  <view class='searchmore-image-group'>
+    <image src='/picture/classify/10.png'></image>
+    <text>医学</text>
+  </view>
+  <view class='searchmore-image-group'>
+    <image src='/picture/classify/11.png'></image>
+    <text>军事学</text>
+  </view>
+  <view class='searchmore-image-group'>
+    <image src='/picture/classify/12.png'></image>
+    <text>管理学</text>
+  </view>
+  <view class='searchmore-image-group'>
+    <image src='/picture/classify/13.png'></image>
+    <text>艺术学</text>
+  </view>
+  <view class='searchmore-image-group'>
+    <image src='/picture/classify/14.png'></image>
+    <text>其他</text>
+  </view>
+</view> -->

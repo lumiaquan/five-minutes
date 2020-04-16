@@ -1,0 +1,10 @@
+<view class="container">
+    <view class="logo-group">
+       <image class="logo" src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/warning.png" />
+    </view>
+
+    <view class="tips">授权后，才能使用后续功能</view>
+
+    <button type="primary" open-type="getUserInfo" bind:getuserinfo="onGetUserInfoTap">授权</button>
+    <button type="default">返回</button>
+</view>

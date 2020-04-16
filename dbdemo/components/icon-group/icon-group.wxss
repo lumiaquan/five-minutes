@@ -1,0 +1,19 @@
+
+.icon-group{
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+  width: 146rpx;
+  height: 146rpx;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.icon-group image{
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.icon-group text{
+  font-size: 32rpx;
+}

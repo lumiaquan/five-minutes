@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "segment": "/components/segment/segment",
+    "video_introduction": "/components/video_introduction/video_introduction",
+    "function_keys": "/components/function_keys/function_keys",
+    "my-pub-item": "/components/my-pub-item/my-pub-item",
+    "border-group": "/components/border-group/border-group",
+    "morevideo": "/components/morevideo/morevideo",
+    "my-relative": "/components/my-relative/my-relative",
+    "reply":"/components/reply/reply"
+  }
+}

@@ -1,0 +1,101 @@
+
+<wxs src="../../../utils/util.wxs" module="util" />
+
+<segment items="{{items}}" defaultIndex="{{currentIndex}}" binditemchanged="onsegmentItemchanged">
+  <view slot="0"  >  
+
+<view class="weibo-group"  wx:for='{{posts}}'  wx:for-item='posts' wx:key='{{index}}' wx:for-index="postsIndex">
+  <view class="user-group">
+    <image class="avatar" src="{{posts.author.avatarUrl}}"></image>
+    <view class="right-info">
+      <view class="username">{{posts.author.nickName}}</view>
+      <view class="detail-info">
+        <view class="time">{{util.timeFormat(posts.time)}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="weibo-content-group">
+    <view class="content">
+      <navigator  url='/pages/uploadGroup/post_detail_post/post_detail_post?id={{posts._id}}'>
+        {{posts.content}}
+      </navigator>
+
+    </view>
+    <block wx:if="posts.images.length > 0">
+      <!-- 1张图片的情况 -->
+      <view wx:if="{{posts.images.length == 1}}" class="image-list-group">
+        <image bindtap='onImageTap' data-index='0' data-post="{{postsIndex}}" src="{{posts.images}}" mode="aspectFill" style="width:100%;maxheight:300rpx;" />
+      </view>
+      <!-- 2和4张图片的情况 -->
+      <view wx:elif="{{posts.images.length == 2 || posts.images.length == 4}}" class="image-list-group">
+        <image bindtap='onImageTap' data-index='{{index}}' data-post="{{postsIndex}}" wx:for="{{posts.images}}" wx:key='*this' src="{{item}}" mode="aspectFill" style="width:{{twoImageSize}}px;height:{{twoImageSize}}px;" />
+      </view>
+      <!-- 3行图片的情况 -->
+      <view wx:else class="image-list-group">
+        <image bindtap='onImageTap' data-index='{{index}}' data-post="{{postsIndex}}" wx:for="{{posts.images}}" wx:key="*this" src="{{item}}" mode="aspectFill" style="width:{{threeImageSize}}px;height:{{threeImageSize}}px;" />
+        <view wx:if="{{posts.images.length%3 == 2}}" style="width:{{threeImageSize}}px;height:{{threeImageSize}}px;"></view>
+      </view>
+    </block>
+    <!-- 视频的情况 -->
+    <block wx:if="{{posts.video.length > 0}}" poster="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct-1259251713/01.jpg">
+      <view class="image-list-group">
+        <video src="{{posts.video}}"></video>
+      </view>
+    </block>
+  </view>
+  <view class="weibo-handle">
+    <view class="praise-group" bindtap='onPraiseTap' data-posts='{{postsIndex}}'>
+      <image wx:if="{{posts.isPraised}}" src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/praised.png'></image>
+      <image wx:else src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/up.png'></image>
+      <block wx:if="{{posts.praises && posts.praises.length > 0}}">
+        {{posts.praises.length}}
+      </block>
+      <block wx:else>
+        赞
+      </block>
+    </view>
+    <view class="comment-group">
+      <navigator  url='/pages/uploadGroup/post_detail_post/post_detail_post?id={{posts._id}}'>
+        <view>
+          <image src="cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/comment.png"></image>
+          评论
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>
+
+
+
+    <!-- <ordinarypost wx:for='{{posts}}'  wx:for-item='posts' wx:key='*this' posts='{{posts}}'  detailurl='/pages/uploadGroup/post_detail_post/post_detail_post?id={{posts._id}}' bind:onPraiseTap="onPraiseTap" ></ordinarypost>
+     -->
+
+  </view>
+  <view slot="1" >
+
+    <view class='all_group' wx:for='{{video}}' wx:key="*this">
+      <morevideo upNum="{{item.upNum}}" commentNum="{{item.commentNum}}" collectNum="{{item.collectNum}}" videosrc="{{item.fileID}}" navigatorUrl="/pages/index_group/videoDetail_page/videoDetail_page?id={{item._id}}"   video_title='{{item.title}}' video_tags='{{item.tags}}'>
+      </morevideo>
+    </view>
+    <loadingmore hasmore="{{hasmore}}"></loadingmore>
+
+  </view>
+  <view slot="2" >
+    <!-- <ordinarypost wx:for='{{posts}}'  wx:for-item='posts' wx:key='*this' posts='{{posts}}'  detailurl='/pages/uploadGroup/post_detail_post/post_detail_post?id={{posts._id}}' ></ordinarypost> -->
+
+  </view>
+  <view slot="3" >  
+    <!-- <ordinarypost wx:for='{{posts}}'  wx:for-item='posts' wx:key='*this'  posts='{{posts}}'  detailurl='/pages/uploadGroup/post_detail_post/post_detail_post?id={{posts._id}}' ></ordinarypost> -->
+
+  </view>
+</segment>
+
+<loadingmore></loadingmore>
+
+
+<view class="write-weibo-btn" bindtap="onWriteWeiboTap">
+  <view>+</view>
+</view>
+
+
+

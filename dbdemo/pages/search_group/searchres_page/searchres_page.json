@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "morevideo": "/components/morevideo/morevideo",
+    "search": "/components/search/search",
+    "loadingmore": "/components/loadingmore/loadingmore"
+  }
+}

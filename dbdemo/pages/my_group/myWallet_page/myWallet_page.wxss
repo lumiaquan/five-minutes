@@ -1,0 +1,70 @@
+.coin-group{
+  height: 220rpx;
+  border: 2px solid gray;
+  border-radius: 16rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-bottom: 30rpx;
+}
+.title-group{
+  display: flex;
+  justify-content: center;
+  margin-top: 10rpx;  
+  margin-bottom: 10rpx;
+}
+.border-group{
+  display: flex;
+}
+
+.white-border{
+  border: 1px solid #fff;
+  width: 20%;
+}
+
+.gray-border{
+  border: 1px solid #e4e4e4;
+  width: 60%;
+}
+
+.money-group{
+  display: flex;
+  justify-content: center;
+}
+
+.image-group{
+  margin-right: 40rpx;
+}
+
+image-group{
+  align-items: center;
+}
+
+.image-group image{
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 20rpx;
+}
+
+.text-group{
+  font-size: 60rpx;
+  margin-top: 20rpx;
+}
+
+.recharge-group{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.recharge-group image{
+  height: 180rpx;
+  width: 180rpx;
+}
+
+.annotation-group{
+  margin-top: 30rpx;
+  font-size: 26rpx;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

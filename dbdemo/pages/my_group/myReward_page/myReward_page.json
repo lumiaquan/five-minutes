@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "top-group": "/components/top-group/top-group",
+    "segment": "/components/segment/segment",
+    "reward_post": "/components/reward_post/reward_post"
+  }
+}

@@ -1,0 +1,17 @@
+.border{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.border-gray{
+  height: 1px;
+  background: #a6a6a6;
+  width: 82%
+}
+
+.border-white{
+  height: 1px;
+  background: #fff;
+  width: 9%;
+}

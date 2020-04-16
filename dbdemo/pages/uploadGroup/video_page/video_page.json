@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "upload-title-group": "/components/upload-title-group/upload-title-group",
+    "xiala":"/components/xiala/xiala"
+  }
+}

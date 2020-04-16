@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index_group/index_page/index_page",
+    "pages/uploadGroup/upload_page/upload_page",
+    "pages/index_group/videoList_page/videoList_page",
+    "pages/index_group/videoDetail_page/videoDetail_page",
+    "pages/uploadGroup/post_detail_post/post_detail_post",
+    "pages/other_group/other_page/other_page",
+    "pages/other_group/commentDetail_page/commentDetail_page",
+    "pages/my_group/feedback_page/feedback_page",
+    "pages/my_group/my_page/my_page",
+    "pages/my_group/myReward_page/myReward_page",
+    "pages/my_group/myReply_page/myReply_page",
+    "pages/my_group/signUp_page/signUp_page",
+    "pages/my_group/myWallet_page/myWallet_page",
+    "pages/my_group/myPublic_page/myPublic_page",
+    "pages/my_group/myCollection_page/myCollection_page",
+    "pages/my_group/myFollow_page/myFollow_page",
+    "pages/my_group/myIdentify_page/myIdentify_page",
+    "pages/my_group/rewardAllocation_page/rewardAllocation_page",
+    "pages/search_group/search_page/search_page",
+    "pages/search_group/searchDetail_page/searchDetail_page",
+    "pages/index/index",
+    "pages/uploadGroup/choose_page/choose_page",
+    "pages/uploadGroup/login/login",
+    "pages/uploadGroup/post_page/post_page"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0070c1",
+    "navigationBarTitleText": "五分钟讲堂",
+    "navigationBarTextStyle": "white"
+  },
+  "cloud": true,
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#1AAD16",
+    "list": [
+      {
+        "pagePath": "pages/index_group/index_page/index_page",
+        "text": "首页",
+        "iconPath": "/images/1.png",
+        "selectedIconPath": "/images/1.1.png"
+      },
+      {
+        "pagePath": "pages/uploadGroup/post_page/post_page",
+        "text": "帖子",
+        "iconPath": "/images/4.png",
+        "selectedIconPath": "/images/4.4.png"
+      },
+      {
+        "pagePath": "pages/search_group/search_page/search_page",
+        "text": "查询",
+        "iconPath": "/images/2.png",
+        "selectedIconPath": "/images/2.2.png"
+      },
+      {
+        "pagePath": "pages/my_group/my_page/my_page",
+        "text": "我的",
+        "iconPath": "/images/3.png",
+        "selectedIconPath": "/images/3.3.png"
+      }
+    ]
+  }
+}

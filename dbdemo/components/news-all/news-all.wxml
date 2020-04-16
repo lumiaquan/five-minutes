@@ -1,0 +1,26 @@
+  <view wx:if="{{howmany.length===1}}" class="big-box">
+    <view class="container">
+        <view class="author-box">
+          <touxiang pic_src='{{pic_src}}'   name='{{name}}'  time='{{time}}' id='{{index}}'></touxiang>
+          
+          <view wx:if="{{isreward}}" class='reward_group'>
+            <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/components/news-all/a.png' class='reward-images'></image>
+            <view class='money_group'>
+              <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/components/news-all/wallet.png' class='reward-images money'></image>
+              <text>x10</text>
+            </view>
+            <view class='time_text'>
+            {{howlong}}
+            </view>
+          </view>
+
+        </view>
+      <navigator url='{{url}}?index={{index}}'>
+        <view class='detail'>{{post_title}}</view> 
+        <view class='put_image' wx:if='{{post_src}}'>
+          <image src='{{post_src}}'></image>
+        </view>
+      </navigator>
+    </view>
+    <function_keys bigorsmall="1"  upNum='{{upNum}}'  commentNum='{{commentNum}}' collectNum='{{collectNum}}'></function_keys>
+  </view>

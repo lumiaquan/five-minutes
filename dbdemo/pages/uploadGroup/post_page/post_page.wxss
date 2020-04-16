@@ -1,0 +1,131 @@
+page{
+  background: rgba(128, 128, 128, 0.096);
+}
+
+
+.write-weibo-btn{
+  position: fixed;
+  right: 50rpx;
+  bottom: 100rpx;
+  width: 100rpx;
+  height: 100rpx;
+  background: rgb(116, 194, 223);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100rpx;
+  color: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,5);
+}
+
+.write-weibo-btn view{
+  margin-top: -16rpx;
+}
+
+
+
+page{
+  background: rgba(128, 128, 128, 0.096);
+}
+.weibo-group{
+padding: 40rpx 20px;
+width:100%;
+background: #fff;
+box-sizing: border-box;
+margin-bottom: 30rpx;
+}
+
+.user-group{
+  display: flex;
+}
+
+.avatar{
+  width: 74rpx;
+  height: 74rpx;
+  border-radius: 50%;
+}
+
+.user-group .right-info{
+  flex: 1;
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right-info .username{
+  font-size: 28rpx;
+  color: #323232;
+}
+
+.right-info .detail-info{
+  font-size: 24rpx;
+  color: #656565;
+  display: flex;
+}
+
+.detail-info .time{
+  margin-right: 20rpx;
+}
+
+.weibo-content-group{
+  padding-top: 30rpx;
+}
+
+.weibo-content-group .content{
+  font-size: 32rpx;
+}
+
+.weibo-content-group .image-list-group{
+  padding-top: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.image-list-group image{
+  margin-bottom: 5rpx;
+}
+.image-list-group video{
+  width: 100%;
+}
+
+.weibo-handle{
+  display: flex;
+  padding-top: 30rpx;
+  font-size: 28rpx;
+}
+
+.weibo-handle image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+
+.weibo-handle view{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.write-weibo-btn{
+  position: fixed;
+  right: 50rpx;
+  bottom: 100rpx;
+  width: 100rpx;
+  height: 100rpx;
+  background: rgb(116, 194, 223);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100rpx;
+  color: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,5);
+}
+
+.write-weibo-btn view{
+  margin-top: -16rpx;
+}

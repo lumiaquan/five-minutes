@@ -1,0 +1,5 @@
+.loading-btn{
+  padding-bottom: 70rpx;
+  font-size: 28rpx;
+  color: #0070c1;
+}

@@ -1,0 +1,19 @@
+.video-title{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+
+.video-title .image image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 70rpx;
+  margin-right: 10rpx;
+}
+
+.image{
+  display: flex;
+  align-items: flex-end;
+}
+

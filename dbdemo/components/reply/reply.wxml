@@ -1,0 +1,29 @@
+<view class='main-group'>
+  <view class='left-group'>
+     <touxiang pic_src='{{pic_src}}'  image_size='90'  name_size='40' height='80' name='{{name}}'></touxiang>
+    <view class='body-group'>
+      <view class='neirong'>{{neirong}} </view>
+    </view>
+    <view class='reply_group'  wx:for='{{third_post}}' wx:key='*this'>
+      
+        <view class='left_reply'></view>
+        <view class='right_reply'>
+        <text class='reply_name'>{{item.name}}</text>
+        <text class='reply_neirong'>{{item.neirong}}</text>
+        </view> 
+    </view> 
+    <view class='more_reply' wx:if='{{third_post_num>3}}' bindtap='more_reply'>点击查看更多回复</view>
+  </view>
+  <view class='right-group'>
+    <view class='praise' >
+      <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/components/reply/dz.png'></image>
+      <view class='upnum' wx:if='{{upnum}}'>{{upnum}}</view>
+    </view>
+    <view class='reply'>
+      <image src='cloud://f-min-dev-d12ct.662d-f-min-dev-d12ct/etc/pagesSrc/components/reply/pl.png'></image> 
+      
+    </view>
+  </view>
+
+</view>
+<border-group></border-group>

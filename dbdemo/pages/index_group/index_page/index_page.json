@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "segment": "/components/segment/segment",
+    "search": "/components/search/search",
+    "ad_swiper": "/components/ad_swiper/ad_swiper"
+  }
+}
